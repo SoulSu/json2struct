@@ -1,29 +1,3 @@
-# json2struct
-json to struct
-
-
-> 将json文件 转换成go对应的结构体
-
-
-> InputFileContent
-
-```
-{
-    "userId": 1001,
-    "nickname": "nickname",
-    "nickname": "nickname",
-    "loginToken": "test@facebook.com",
-    "avatar": "/static/pic/myavatar.png",
-    "registerCountryCode": "CN",
-    "registerLocation": "China",
-    "userType": 0,
-    "registerTime": 1361416163
-}
-```
-
-> OutPutContent
-
-```
 package output
 
 type UserInfo struct {
@@ -36,8 +10,3 @@ type UserInfo struct {
 	userType            float64 `json:"userType"`
 	registerTime        float64 `json:"registerTime"`
 }
-
-```
-
-
-

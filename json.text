@@ -1,0 +1,11 @@
+{
+    "userId": 1001,
+    "nickname": "nickname",
+    "nickname": "nickname",
+    "loginToken": "test@facebook.com",
+    "avatar": "/static/pic/myavatar.png",
+    "registerCountryCode": "CN",
+    "registerLocation": "China",
+    "userType": 0,
+    "registerTime": 1361416163
+}
